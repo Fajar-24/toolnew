@@ -9,8 +9,10 @@ echo "###################################"
 echo $i"|"$me" 1"$i" |"$cy" INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
 echo $i"|"$me" 2"$i" |"$cy" SUDAH INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
 echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"|lolcat
+echo
 read -p "pilih : " read tr
-if [ $pil -1 ]
+
+if [ $pil = 1 ]
 then
 pkg  upgrade && apt update
 pkg install python2
@@ -20,7 +22,7 @@ pip2 install lolcat
 clear
 fi
                                                                   >
-if [ $pil -2  ]
+if [ $pil = 2  ]
 then
 echo "TUNGGU SEBENTAR"|lolcat
 clear
@@ -180,7 +182,7 @@ cd HACKWHATSAPP
 sh WhatSapp.sh
 fi
 
-if [ $pil-7 ]
+if [ $pil = 7 ]
 then
 git clone https://github.com/Fajar-24/Dark1.0
 cd Dark1.0
