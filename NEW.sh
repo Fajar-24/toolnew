@@ -6,8 +6,8 @@ echo "KALAU ANDA BELUM INSTALL BAHAN SILAKAN INSTALL DULU ****"
 echo "KALAU ANDA SUDAH PILIH SUDAH INSTALL BAHAN **********"
 echo "#########################################################"
 echo "###################################"
-echo $i"|"$me" 6"$i" |"$cy" INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
-echo $i"|"$me" 6"$i" |"$cy" SUDAH INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
+echo $i"|"$me" 1"$i" |"$cy" INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
+echo $i"|"$me" 2"$i" |"$cy" SUDAH INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
 echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"|lolcat
 read -p "pilih : " read tr
 if [ $pil -1 ]
