@@ -10,7 +10,7 @@ echo $i"|"$me" 1"$i" |"$cy" INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolc
 echo $i"|"$me" 2"$i" |"$cy" SUDAH INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
 echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"|lolcat
 echo
-read -p "pilih : " read tr
+read -p"└──# " pil
 
 if [ $pil = 1 ]
 then
